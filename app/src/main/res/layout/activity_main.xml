@@ -7,29 +7,20 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:textSize="50dp"
+        android:layout_height="263dp"
         android:gravity="center"
-        android:text="Obteniendo datos...">
-
-    </TextView>
-
-    <ProgressBar
-        android:layout_width="match_parent"
-        android:layout_height="73dp"
-        android:layout_gravity="top">
-
-    </ProgressBar>
+        android:paddingTop="30dp"
+        android:text="Datos desde Jsón"
+        android:textSize="30dp"></TextView>
 
     <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="0"
-        android:gravity="center_horizontal"
+        android:gravity="center"
         android:orientation="vertical"
         android:textAlignment="center">
 
@@ -46,8 +37,10 @@
             android:id="@+id/idTextEdit"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:hint=""
-            android:padding="10dp"></EditText>
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:gravity="center_horizontal">
+        </EditText>
 
         <TextView
             android:layout_width="match_parent"
@@ -62,8 +55,9 @@
             android:id="@+id/nombreTextEdit"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:hint=""
-            android:padding="10dp"></EditText>
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:gravity="center_horizontal"></EditText>
 
         <TextView
             android:layout_width="match_parent"
@@ -78,8 +72,9 @@
             android:id="@+id/edadTextView"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:hint=""
-            android:padding="10dp"></EditText>
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:gravity="center_horizontal"></EditText>
 
         <TextView
             android:layout_width="match_parent"
@@ -94,8 +89,9 @@
             android:id="@+id/emailTextView"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:hint=""
-            android:padding="10dp"></EditText>
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:gravity="center_horizontal"></EditText>
 
 
     </LinearLayout>
